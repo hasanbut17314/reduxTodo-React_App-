@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Provider } from 'react-redux'
 import AddTodo from './components/AddTodo'
 import Todos from './components/Todo'
@@ -6,7 +5,6 @@ import { store } from './app/Store'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <Provider store={store}>
